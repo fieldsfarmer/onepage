@@ -34,13 +34,13 @@
     "lists": [
       {
         "fullName": "Course Registration Helper for UIUC CS Students System",
-        "subtitle": "A Chrome Plug-in",
+        "subtitle": "A Chrome Plug-in <a href=\"https://github.com/fieldsfarmer/course_helper\" target=\"new\" class=\"demoLabel\">Code</a>",
         "details": [
         "Help to get to some popular pages quickly by simulating tedious and repeating mouse clicks required in the course registration system"  
         ]
       }
     ]
-  },
+  }, 
   {
     "category": "Course Projects",
     "lists": [
