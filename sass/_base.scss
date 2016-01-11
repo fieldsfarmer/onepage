@@ -1,13 +1,137 @@
 @import url('http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather');
-@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
 
-
-h1 {
-  font-size: 2.2rem;
-  color: lighten($orange, 25);
+.stripe{
+	width: 100%;
+	min-width: 1024px;
+	height: 500px;
 }
 
-.test {
-  font-size: 1.2rem;
-  color: $blue;
+.blank{
+	clear: both;
 }
+.bar{
+	background: $blue;
+	color: #FFF;
+}
+
+.wrapper{
+	width: $wrapperWidth;
+	height: 100%;
+	@include autoMargin;
+}
+
+.sectionTitle{
+	font-family: $font-title;
+	font-size: 3.0em;
+	font-weight: 700;
+	span{
+		margin-left: 20px;
+	}
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+.content {
+  font-family: $font-content;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+a{
+  color:inherit;
+}
+
+a:visited {
+  color:inherit;
+}
+
+.hexagon {
+  position:absolute;
+  width:104px;
+  height:60px;
+  left: $wrapperWidth / 2 - 52px;
+  top:-30px;
+  background: $hexagon;
+  font-family: $font-title;
+  font-size: 3.0em;
+  line-height: 60px;
+  text-align: center;
+}
+
+.hexagon:before {
+  content: " ";
+  width: 0; height: 0;
+  border-bottom: 30px solid $hexagon;
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+  position: absolute;
+  top: -30px;
+  left:0px;
+}
+
+.hexagon:after {
+  content: "";
+  width: 0;
+  position: absolute;
+  left:0px;
+  bottom: -30px;
+  border-top: 30px solid $hexagon;
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+}
+
+
+/*input[type='text']{
+  display: inline-block;
+  background: transparent;
+  border:0px;
+  border-bottom: 1px solid #FFF;
+  border-radius: 0px;
+  margin: 0px;
+  height:30px;
+  width:286px;
+  font-size: 1.0em;
+  outline:0;
+  padding: 0px;
+}
+input[type='text']:focus{
+  outline:0;
+}
+textarea{
+  background: transparent;
+  border: 1px solid #FFF;
+  height: 200px;
+  width: 352px;
+  font-size: 0.8em;
+}
+textarea:focus{
+  outline:0;
+}*/
+
+
+video#bgvid {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  @include autoMargin;
+  width: 100%;
+  height:$slideHeight;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+div#bgvid {
+	/*background: url("../images/bg_matrix.jpg") fixed no-repeat;*/
+  /*position: absolute;*/
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  @include autoMargin;
+  width: 100%;
+  height:$slideHeight;
+  margin-top: 0px;
+  overflow: hidden;
+}
+

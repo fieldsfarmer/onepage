@@ -1,0 +1,97 @@
+[
+  {
+    "category": "Work Experience",
+    "lists": [
+      
+      {
+        "subtitle": "Web Developer",
+        "fullName": "Web Developer, National University Rail Center, Urbana, IL, 02/2015-Present",
+        "details": [
+          "Update and maintain the <a target=\"_blank\" href=\"http://www.nurailcenter.org\" class=\"demoLabel\">official website </a>",
+          "Use JavaScript to implement web features"
+        ]
+      },
+      {
+        "subtitle": "Research Assistant",
+        "fullName": "Research Assistant, Oxford-Man Institute of Quantitative Finance, Oxford, UK, 10/2010-07/2013",
+        "details": [
+          "Studied portfolio selection models following human behavioral criteria",
+        "One paper accepted by 7th Bachelier Finance Society World Congress 2012 at Sydney, Australia"
+        ]
+      },
+      {
+        "subtitle": "Teaching Assistant",
+        "fullName": "Teaching assistant of Mathematical Institute, University of Oxford, 01-05/2012, 2013",
+        "details": [
+          "Grader and Tutor for <em>Mathematical Models of Financial Derivatives</em> and <em>Stochastic Control & Asset Allocation</em>",
+          "Effectively communicated with both undergrad and grad students"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Independent Projects",
+    "lists": [
+      {
+        "fullName": "Course Registration Helper for UIUC CS Students System",
+        "subtitle": "A Chrome Plug-in",
+        "details": [
+        "Help to get to some popular pages quickly by simulating tedious and repeating mouse clicks required in the course registration system"  
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Course Projects",
+    "lists": [
+      {
+        "fullName": "Course Mouse <a href=\"http://coursemouse.herokuapp.com\" target=\"new\" class=\"demoLabel\">Demo</a> <a href=\"https://github.com/fieldsfarmer/coursemouse\" target=\"new\" class=\"demoLabel\">Code</a>",
+        "subtitle": "Course Mouse",
+        "details": [
+          "Help to search online courses with prerequisite course recommendation",
+          "Crawled and cleaned oneline course data, then put into Elasticsearch; Used Angular.js for the UI and connecting the backend"
+        ]
+      },
+      {
+        "fullName": "Artist Finder <a href=\"http://artist-finder.herokuapp.com/\" target=\"new\" class=\"demoLabel\">Demo</a> <a href=\"https://github.com/fieldsfarmer/artistfinder-web\" target=\"new\" class=\"demoLabel\">Code</a>",
+        "subtitle": "Artist Finder",
+        "details": [
+          "Help to search for music artists, focused on social network connections",
+          "Implemented using MEAN stack (MongoDB, Express.js, Angular.js, Node.js)"
+        ]
+      },
+      {
+        "fullName": "Pseudo TCP by UDP",
+        "subtitle": "Pseudo TCP by UDP",
+        "details": [
+          "Used socket programming with C/C++ on UDP to implement TCP features including reliable transmission, FIFO delivery, congestion control and flow control",
+          "Ensured high performance and compatibility with real TCP"
+        ]
+      },
+      {
+        "fullName": "Link-State Routing Implementation",
+        "subtitle": "Link-State Routing",
+        "details": [
+          "Simulated each router node as process and periodically flooded the network with local information",
+          "Computed shortest paths by Dijkstra algorithm",
+          "Ensured fast recover in case of node failure"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Skills",
+    "lists": [
+      {
+        "fullName": "Profession Skills",
+        "subtitle": "Profession Skills",
+        "details": [
+          "<b>Language</b>: <span class=\"skillLabel\">Java</span><span class=\"skillLabel\">C</span><span class=\"skillLabel\">C++</span><span class=\"skillLabel\">JavaScript</span><span class=\"skillLabel\">Python</span>",
+          "<b>Framework/Lib</b>: <span class=\"skillLabel\">jQuery</span><span class=\"skillLabel\">Node.js</span><span class=\"skillLabel\">Angular.js</span><span class=\"skillLabel\">Express.js</span>",
+          "<b>Database</b>: <span class=\"skillLabel\">MySQL</span><span class=\"skillLabel\">MongoDB</span>",
+          "<b>OS</b>: <span class=\"skillLabel\">Mac OS X</span><span class=\"skillLabel\">Linux</span>"
+        ]
+      }
+    ]
+  }
+]

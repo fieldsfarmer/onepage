@@ -1,4 +1,4 @@
-One webpage used in my personal website :-)
+The webpage used in my personal website :-)
 
 Use the following commands in your vagrant development environment to get this up and running
 ```bash
